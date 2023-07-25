@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: auto auto;
+  margin-top: 20px;
+  background-color: #00000080;
+  width: 325px;
+  height: 500px;
+  border-radius: 13px;
+}
+
+.text-center {
+  text-align: center;
+  margin: auto auto;
+  margin-top: 20px;
+  background-color: #000000ce;
+  color: rgb(103, 129, 232);
+  width: 325px;
+  height: 45px;
+  border-radius: 13px;
+  padding: 5px;
+}
+
+.bg-red {
+  background: red;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* calculator */
+
+.button {
+  height: 60px;
+  width: 60px;
+  background-color: #b2dff8;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.equal {
+  width: 125px;
+  border-radius: 50px;
+}
+
+.c {
+  width: 187px;
+  border-radius: 50px;
+}
+
+.row {
+  margin: 8px 0;
+}
+.row input {
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: #b2dff8;
+}
+
+.c {
+  background-color: rgb(222, 159, 159);
+}
+
+.op {
+  background-color: rgb(167, 224, 172);
+}
+
+.c:hover {
+  background-color: rgb(183, 64, 64);
+}
+
+.equal:hover {
+  background-color: rgb(17, 70, 124);
+}
+
+.op:hover {
+  background-color: rgb(46, 194, 61);
+}
+
+.num:hover {
+  background-color: rgb(83, 136, 197);
+}
